@@ -18,7 +18,7 @@ class _ScreenState extends State<MindDeepRelax> {
           decoration: const BoxDecoration(
               color: Color.fromRGBO(242, 201, 76, 1),
               borderRadius: BorderRadius.all(Radius.circular(10))),
-          child: Image.asset("lib/assets/img2.png"),
+          child: Image.asset("assets/img2.png"),
         ),
         Container(
           margin: const EdgeInsets.fromLTRB(20, 0, 0, 0),
@@ -67,7 +67,7 @@ class _ScreenState extends State<MindDeepRelax> {
             margin: const EdgeInsets.fromLTRB(60, 35, 0, 0),
             width: 20,
             height: 20,
-            child: Image.asset("lib/assets/img3.png"),
+            child: Image.asset("assets/img3.png"),
           ),
         ]),
         Row(
@@ -90,7 +90,7 @@ class _ScreenState extends State<MindDeepRelax> {
             margin: const EdgeInsets.fromLTRB(35, 25, 0, 0),
             width: 20,
             height: 20,
-            child: Image.asset("lib/assets/img3.png"),
+            child: Image.asset("assets/img3.png"),
           ),
               ]),
             Column(
@@ -164,7 +164,7 @@ class _ScreenState extends State<MindDeepRelax> {
             margin: const EdgeInsets.fromLTRB(35, 25, 0, 0),
             width: 20,
             height: 20,
-            child: Image.asset("lib/assets/img3.png"),
+            child: Image.asset("assets/img3.png"),
           ),
               ]),
             Column(
@@ -237,7 +237,7 @@ class _ScreenState extends State<MindDeepRelax> {
             margin: const EdgeInsets.fromLTRB(35, 25, 0, 0),
             width: 20,
             height: 20,
-            child: Image.asset("lib/assets/img3.png"),
+            child: Image.asset("assets/img3.png"),
           ),
               ]),
             Column( 
