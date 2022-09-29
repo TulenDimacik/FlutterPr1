@@ -48,7 +48,7 @@ class _ScreenState extends State<Medinow> {
         ),
         const Text("Continue With Google", style: TextStyle(color: Colors.white, fontSize: 16),),
 
-         Expanded(child: Image.asset("lib/assets/img1.png")),
+         Expanded(child: Image.asset("assets/MedinowLogo.png")),
       ]),
     ),
     backgroundColor: const Color.fromRGBO(3, 158, 162, 1)

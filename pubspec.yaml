@@ -61,15 +61,15 @@ flutter:
  
  
   assets:
-    - assets/img1.png
-    - assets/img2.png
-    - assets/img3.png
-    - assets/img4.png
-    - assets/img5.png
-    - assets/img6.png
-    - assets/img7.png
-    - assets/img8.png
-    - assets/img9.png
+    - assets/MedinowLogo.png
+    - assets/MindDeepRelaxLogo.png
+    - assets/Rectangle.png
+    - assets/Loop.png
+    - assets/MeditateLogo.png
+    - assets/CloudAndMoon.png
+    - assets/OrangeCloud.png
+    - assets/Planet.png
+    - assets/BlueCloud.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

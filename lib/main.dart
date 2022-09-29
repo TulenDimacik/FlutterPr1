@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:practica1/screen1.dart';
-import 'package:practica1/screen2.dart';
-import 'package:practica1/screen3.dart';
+import 'package:practica1/Medinow.dart';
+import 'package:practica1/MindDeepRelax.dart';
+import 'package:practica1/Meditate.dart';
 
 void main() {
 runApp(const Pr1());
