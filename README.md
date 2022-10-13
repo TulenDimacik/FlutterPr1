@@ -1,16 +1,60 @@
-# practica2
+# ПРАКТИЧЕСКАЯ РАБОТА №2
+ ##  Работа с базой данных SQLite.
 
-A new Flutter project.
+<b>Цель работы:</b> необходимо реализовать класс, который отвечает за базу данных. Реализовать следующие функции:
+- init - инициализация базы данных для всех платформ
+- onCreateTable - создание таблиц 
+- onUpdateTable - обновление таблиц
+- onInitTable - заполнение таблиц данными
+- onDropDataBase - удаление базы данных 
+Реализовать таблицы для предметной области "Магазин мебели".
 
-## Getting Started
+<b>Ход работы:</b>
 
-This project is a starting point for a Flutter application.
+Для начала необходимо подключить библиотеки для работы с базой данных.
 
-A few resources to get you started if this is your first Flutter project:
+<img  src="assets/libraries.jpg" width=300 height=200> 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ Рисунок 6 - Библиотеки для работы с БД
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Затем делаем чистую архитектуру, создавая необходимые папки и файлы.
+
+ <img  src="assets/clearArcheticure.jpg" width=300 height=500> 
+
+Рисунок 7 - Чистая архитектура
+
+Затем проектируем нашу базу данных.
+ 
+<img  src="assets/logicalModel.jpg" width=1000 height=400> 
+
+Рисунок 8 - Логическая модель
+
+ <img  src="assets/physicalModel.jpg" width=1000 height=400>
+
+Рисунок 9 - Физическая модель
+
+После чего необходимо в файле data_base_request прописать запросы на создание таблиц и удаление, для более простого взаимодействия в коде.
+ 
+Рисунок 10 - Data_base_request
+
+ <img  src="assets/dbRequest.jpg" width=1000 height=500>
+
+После чего в классе DataBaseHelper прописываем функции для взаимодействия с базой данных в зависимости от платформы.
+
+ <img  src="assets/dbHelper.jpg" width=1000 height=500>
+ 
+Рисунок 11 -DataBaseHelper
+
+Далее в файле main необходимо прописать инициализацию базы данных.
+
+ <img  src="assets/main.jpg" width=300 height=150>
+ 
+Рисунок 12 - Main
+
+После чего запускаем проект и проверяем создался ли файл с базой данных.
+ 
+<img  src="assets/createdFile.jpg" width=700 height=100>
+
+Рисунок 13 - Созданный файл
+
+<p> <b>Вывод:</b> удалось реализовать класс, отвечающий за базу данных, прописать запросы для создания базы данных, создать логическую и физическую модель базы данных, а также проверить создание файла с базой данных. </p>
