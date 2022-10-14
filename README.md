@@ -41,7 +41,7 @@
 
 После чего в классе DataBaseHelper прописываем функции для взаимодействия с базой данных в зависимости от платформы.
 
- <img  src="assets/dbHelper.jpg" width=1000 height=500>
+ <img  src="assets/dbHelper.jpg" width=800 height=600>
  
 Рисунок 11 -DataBaseHelper
 
