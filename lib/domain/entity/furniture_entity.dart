@@ -6,5 +6,5 @@ class FurnitureEntinty{
   final String color;
   final int furnitureTypeID;
   final int manifacturerID;
-  FurnitureEntinty( {required this.furnitureName, required this.weight,  required this.material, required this.color, required this.furnitureTypeID, required this.manifacturerID});
+  FurnitureEntinty( {required this.id, required this.furnitureName, required this.weight,  required this.material, required this.color, required this.furnitureTypeID, required this.manifacturerID});
 }

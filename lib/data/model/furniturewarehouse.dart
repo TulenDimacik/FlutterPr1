@@ -6,8 +6,8 @@ class FurnitureWarehouse extends FurnitureWarehouseEntinty {
   final int warehouseID;
   final int furnitureID;
 
-  FurnitureWarehouse({required this.count, required this.warehouseID, required this.furnitureID})
-      : super(count: count, warehouseID: warehouseID, furnitureID: furnitureID );
+  FurnitureWarehouse({required this.id,required this.count, required this.warehouseID, required this.furnitureID})
+      : super(id:id,count: count, warehouseID: warehouseID, furnitureID: furnitureID );
 
   Map<String, dynamic> toMap() {
     return {'Count': count, 'Warehouse_ID': warehouseID, 'Furniture_ID':furnitureID};
@@ -15,6 +15,6 @@ class FurnitureWarehouse extends FurnitureWarehouseEntinty {
 
   factory FurnitureWarehouse.toFromMap(Map<String, dynamic> json) {
     return FurnitureWarehouse(
-        count: json['Count'], warehouseID: json['Warehouse_ID'], furnitureID: json['Furniture_ID'] );
+      id:json['ID_Furniture_Warehouse'], count: json['Count'], warehouseID: json['Warehouse_ID'], furnitureID: json['Furniture_ID'] );
   }
 }

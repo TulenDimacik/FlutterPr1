@@ -5,8 +5,8 @@ class Warehouse extends WarehouseEntinty {
   final String address;
   final int warehouseNumber;
 
-  Warehouse({required this.address, required this.warehouseNumber})
-      : super(warehouseNumber: warehouseNumber, address: address);
+  Warehouse({required this.id,required this.address, required this.warehouseNumber})
+      : super(id:id,warehouseNumber: warehouseNumber, address: address);
 
   Map<String, dynamic> toMap() {
     return {'Address': address, 'Warehouse_Number': warehouseNumber};
@@ -14,6 +14,6 @@ class Warehouse extends WarehouseEntinty {
 
   factory Warehouse.toFromMap(Map<String, dynamic> json) {
     return Warehouse(
-        address: json['Address'], warehouseNumber: json['Warehouse_Number']);
+      id:json['ID_Warehouse'],  address: json['Address'], warehouseNumber: json['Warehouse_Number']);
   }
 }
