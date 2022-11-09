@@ -8,7 +8,7 @@ class UserInformation extends UserInformationEntinty {
   final String email;
   final int userID;
 
-  UserInformation( {required this.id,required this.surname, required this.userName, required this.patronymic, required this.email, required this.userID})
+  UserInformation( {id=0,required this.surname, required this.userName, required this.patronymic, required this.email, required this.userID})
       : super(id:id,patronymic:patronymic, surname: surname, userName: userName, email: email, userID: userID );
 
   Map<String, dynamic> toMap() {

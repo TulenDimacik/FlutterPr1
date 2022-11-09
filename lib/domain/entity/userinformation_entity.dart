@@ -5,5 +5,5 @@ class UserInformationEntinty{
   final String patronymic;
   final String email;
   final int userID;
-  UserInformationEntinty( {required this.id,required this.surname, required this.userName,  required this.patronymic, required this.email, required this.userID});
+  UserInformationEntinty( {id=0,required this.surname, required this.userName,  required this.patronymic, required this.email, required this.userID});
 }
